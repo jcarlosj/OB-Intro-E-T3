@@ -6,6 +6,11 @@ package PrimeraParte;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println( "Primera Parte" );
+        var result = addNumbers( 2, 3, 4 );
+        System.out.println( result );
+    }
+
+    public static int addNumbers(int number1, int number2, int number3) {
+        return number1 + number2 + number3;
     }
 }
